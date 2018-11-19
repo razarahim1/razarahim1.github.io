@@ -3,23 +3,29 @@ body{
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1700px; 
-
+    height: 100vh; 
+    width: 100%
 }
 
 .findout{
-	font-size: 36px;
+	font-size: 64px;
 	    font-family: "Times New Roman", Times, serif;
 
 	margin-top: 250px;
-	margin-left: 550px;
+	text-align: center;
 	color: black;
 }
+.btns{
+	text-align: center;
+	
+	}
 .btn{
-	margin-left: 550px;
+	font-size: 36px;
+background-color: orange;
 	border-radius: 30px;
-	color: white;	
+	color: white;
   cursor: pointer;
+	position: absolute;
 
 }
 .btn:hover{
